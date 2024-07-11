@@ -1,10 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import SearchBar from './SearchBar';
 
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  const scrollRef = useRef(null);
-
 
   const handleSearch = (query) => {
     setSearchQuery(query.toLowerCase());
@@ -15,7 +13,7 @@ function Home() {
     const parts = text.split(new RegExp(`(${query})`, 'gi'));
     return parts.map((part, index) =>
       part.toLowerCase() === query.toLowerCase() ? (
-        <span key={index} style={{ backgroundColor: '#ddd' }}>{part}</span>
+        <span key={index} style={{ backgroundColor: 'yellow' }}>{part}</span>
       ) : (
         part
       )
@@ -32,13 +30,13 @@ function Home() {
   ];
 
   return (
-    <div ref={scrollRef}>
+    <>
       <main>
         <SearchBar onSearch={handleSearch} />
         <div className="content">
           <div className="scroll_down">
             <div className="progress-container">
-              <div className="progress-bar" id="progress-bar"></div>
+              <div className="progress-bar" id="myBar"></div>
             </div>
             <h1>Digital Edition of 17th-Century Arabic Manuscripts</h1>
           </div>
@@ -48,6 +46,7 @@ function Home() {
               <p key={index}>{highlightText(paragraph, searchQuery)}</p>
             ))}
         </div>
+
       </main>
 
       <div className="d-flex">
@@ -82,7 +81,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
