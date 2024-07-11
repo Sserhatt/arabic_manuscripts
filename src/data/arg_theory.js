@@ -12,6 +12,7 @@ const manuscripts = [
       manuscriptType: "Text",
       inventoryNumber: "4780-IV",
       numberOfPages: "1 folio",
+      page: 1,
       calligraphy: "Nastaliq"
     },
     {
@@ -26,6 +27,7 @@ const manuscripts = [
       manuscriptType: "Text",
       inventoryNumber: "6783-V",
       numberOfPages: "2 folios",
+      page: 2,
       calligraphy: "Naskhī"
     },
     {
@@ -39,6 +41,7 @@ const manuscripts = [
       manuscriptType: "Commentary",
       inventoryNumber: "477-V",
       numberOfPages: "8 folios",
+      pages: 8,
       calligraphy: "Naskhī"
     },
     {
@@ -53,6 +56,7 @@ const manuscripts = [
       manuscriptType: "Summary",
       inventoryNumber: "4027-XXXI",
       numberOfPages: "4 folios",
+      pages: 4,
       calligraphy: "Naskhī"
     },
     {
@@ -67,6 +71,7 @@ const manuscripts = [
       manuscriptType: "Original Text",
       inventoryNumber: "3251-XVI",
       numberOfPages: "3 folios",
+      pages: 3,
       calligraphy: "Naskhī"
     }
   ];
