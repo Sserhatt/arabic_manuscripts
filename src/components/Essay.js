@@ -36,7 +36,7 @@ function Home() {
         <div className="content">
           <div className="scroll_down">
             <div className="progress-container">
-              <div className="progress-bar" id="myBar"></div>
+              <div className="progress-bar" id="progress-bar"></div>
             </div>
             <h1>Digital Edition of 17th-Century Arabic Manuscripts</h1>
           </div>

@@ -4,7 +4,7 @@ import { DataGrid } from '@mui/x-data-grid';
 
 
 
-const columns =  [
+const columns = [
   { field: 'id', headerName: 'ID', width: 90 },
   { field: 'library', headerName: 'Library', width: 250 },
   { field: 'bookTitle', headerName: 'Book Title', width: 250 },
@@ -92,24 +92,26 @@ const manuscripts = [
 ];
 
 
- function Search() {
+function Search() {
   return (
-    <Box sx={{ height: 400, width: '100%' }}>
-      <DataGrid
-        rows={manuscripts}
-        columns={columns}
-        initialState={{
-          pagination: {
-            paginationModel: {
-              pageSize: 5,
+    <div><div id="progress-bar" />
+      <Box sx={{ height: 400, width: '100%' }}>
+        <DataGrid
+          rows={manuscripts}
+          columns={columns}
+          initialState={{
+            pagination: {
+              paginationModel: {
+                pageSize: 5,
+              },
             },
-          },
-        }}
-        pageSizeOptions={[5]}
-        checkboxSelection
-        disableRowSelectionOnClick
-      />
-    </Box>
+          }}
+          pageSizeOptions={[5]}
+          checkboxSelection
+          disableRowSelectionOnClick
+        />
+      </Box>
+    </div>
   );
 }
 

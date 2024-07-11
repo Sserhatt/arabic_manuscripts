@@ -14,6 +14,13 @@ function App() {
     document.getElementById("date").innerHTML = d.toDateString();
   }, []);
 
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("progress-bar").style.width = scrolled + "%";
+  }
 
 
 
@@ -37,5 +44,3 @@ function App() {
 }
 
 export default App;
-
-
