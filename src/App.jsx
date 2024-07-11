@@ -5,7 +5,7 @@ import Glossary from './components/Glossary';
 import Search from "./components/Search";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
-
+import NotFound from "./components/NotFound";
 
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
             <Route path="/glossary" element={<Glossary />} />
             <Route path="/escriptorium" element={<eScriptorium />} />
             <Route path="/search" element={<Search />} />
+            <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
       </Router>
