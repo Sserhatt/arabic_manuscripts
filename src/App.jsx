@@ -1,9 +1,10 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Glossary from './components/Glossary';
 import Search from "./components/Search";
-
+import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 function App() {
   React.useEffect(() => {
@@ -12,7 +13,7 @@ function App() {
   }, []);
 
 
-  window.onscroll = function() {myFunction()};
+  window.onscroll = function () { myFunction() };
   function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -21,21 +22,23 @@ function App() {
   }
 
 
+
   return (
-    <>
-   
-      <div className="list">
+    <div className="app">
+      <Router>
+      <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Glossary" element={<Glossary />} />
-          <Route path="/eScriptorium" element={<eScriptorium />} />
-          <Route path="/Search" element={<Search />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/glossary" element={<Glossary />} />
+            <Route path="/escriptorium" element={<eScriptorium />} />
+            <Route path="/search" element={<Search />} />
         </Routes>
-      </div>
+        <Footer />
+      </Router>
+    </div>
 
 
 
-    </>
   );
 }
 

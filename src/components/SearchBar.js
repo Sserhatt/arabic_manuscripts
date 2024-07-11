@@ -8,23 +8,24 @@ const SearchBar = ({ onSearch }) => {
     setQuery(value);
     onSearch(value); 
   };
-  
-  const clearSearch = () => {
-    setQuery('');
-    onSearch(''); 
+
+  const handleSearchClick = () => {
+    onSearch(query);
   };
 
   return (
-    <input
-      type="text"
-      placeholder="Search..."
-      value={query}
-      onChange={handleInputChange}
-      style={{ padding: '3px', fontSize: '1em', border: '3px solid #ccc', borderRadius: '5px', display: "flex",   margin: "0 800px" }}
-    />
+    <div className="search-bar">
+      <input
+        type="text"
+        placeholder="Type..."
+        value={query}
+        onChange={handleInputChange}
+      />
+      <button onClick={handleSearchClick}>
+        Search
+      </button>
+    </div>
   );
 };
 
 export default SearchBar;
-
-

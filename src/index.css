@@ -28,7 +28,7 @@ h1{
 p {
 
   font-family: monospace;
-  color: #223508;
+  color: #152005;
 }
 
 .header-bg {
@@ -78,6 +78,22 @@ p {
   color: inherit;
 }
 
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1vh;
+
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin: 1x;
+  border-radius: 5px;
+  margin-right: 100px;
+ 
+}
 
 main {
   flex: 1;
@@ -90,7 +106,7 @@ main {
   background-color: white;
   border: 3px solid #ccc;
   border-radius: 10px;
-  margin: 70px;
+  margin: 60px;
 
 }
 
