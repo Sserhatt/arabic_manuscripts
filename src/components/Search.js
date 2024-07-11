@@ -22,8 +22,14 @@ const columns = [
 
 
 function Search() {
+  const handleRowClick = (params) => {
+    // params has information about the row clicked
+    console.log(params);
+  };
+
   return (
-    <div><div id="progress-bar" />
+    <div>
+      <div id="progress-bar" />
       <Box sx={{ height: 400, width: '100%' }}>
         <DataGrid
           rows={manuscripts}
@@ -38,12 +44,12 @@ function Search() {
           pageSizeOptions={[5]}
           checkboxSelection
           disableRowSelectionOnClick
+          onRowClick={handleRowClick} // Adding the event listener here
         />
       </Box>
     </div>
   );
 }
-
 
 
 export default Search;
