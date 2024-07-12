@@ -15,7 +15,7 @@ function Header() {
           <ul>
             <li><Link to="/search">Search</Link></li>
             <li><Link to="/glossary">Glossary</Link></li>
-            <li><Link to="/escriptorium">eScriptorium</Link></li>
+            <li><Link to="/tutorial">Tutorial</Link> </li>
           </ul>
         </nav>
       </div>

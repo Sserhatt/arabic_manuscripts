@@ -1,12 +1,12 @@
 import React from 'react';
 
-function eScriptorium() {
+function Tutorial() {
   return (
     <div>
       <div id="progress-bar" />
-      <h2>eScriptorium</h2>
+      <h2>Tutorial</h2>
     </div>
   );
 }
 
-export default eScriptorium;
+export default Tutorial;

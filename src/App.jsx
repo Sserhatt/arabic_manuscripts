@@ -6,7 +6,7 @@ import Search from "./components/Search";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
 import NotFound from "./components/NotFound";
-
+import Tutorial from './components/Tutorial';
 
 function App() {
   React.useEffect(() => {
@@ -31,8 +31,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/glossary" element={<Glossary />} />
-            <Route path="/escriptorium" element={<eScriptorium />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/tutorial" element={<Tutorial />} />
             <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
