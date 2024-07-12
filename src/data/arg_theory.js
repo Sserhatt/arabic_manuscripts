@@ -34,6 +34,7 @@ const manuscripts = [
       id: 3,
       library: "Diyanet Manuscripts Library/Ankara",
       bookTitle: "Hāshiyetü’l-Kawākibī 'alā risālati’l-baḥth Ṭāshkubrīʹzādah / حاشیة الكواكبى علي رسالة البحث طاشكبري زاده",
+      englishTranslation: "Commentary by Al-Kawakibi on the Treatise of Research by Tashkubrizadeh",
       author: "Ebüssuûd b. Ahmed b. Muhammed al-Kawākibī al-Hanefī al-Halebī / بن محمد الكواكبى الحنفي الحلبي ابو السعود بن احمد",
       dateOfBirth: null,
       dateOfDeath: null,
