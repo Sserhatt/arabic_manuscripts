@@ -50,7 +50,7 @@ function Search() {
   return (
     <div className='container'>
       <div id="progress-bar" />
-      <Box sx={{ height: 400, width: '100%' }}>
+      <Box sx={{ height: 400, width: '100%', paddingTop: "50px" }}>
         <DataGrid
           rows={manuscripts}
           columns={columns}

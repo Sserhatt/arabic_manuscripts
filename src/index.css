@@ -16,8 +16,8 @@ header {
   border-radius: 3px;
   background-image: url(images/FS-6317_07-1024x725.jpg);
   background-position: center;
-  color: hsl(127, 8%, 60%);
-  margin: 10px;
+  color: hsl(130, 19%, 6%);
+  border-bottom: 3rem rgb(26, 64, 80) solid;
 }
 
 h1{
@@ -58,14 +58,14 @@ p {
   font-size: 20px;
   background-color: #040a022f;
   border-radius: 5px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 0px;
   
 }
 
 .navbar nav ul li {
   position: relative;
   padding: 0 15px;
+
 }
 
 .navbar nav ul li:not(:last-child)::after {
