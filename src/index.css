@@ -276,3 +276,59 @@ footer {
   overflow: auto;
   white-space: pre-wrap; /* Ensure long lines wrap within the pre element */
 }
+
+
+#progress-bar {
+  width: 0%;
+  height: 5px;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.glossary-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.navigator {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigator-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navigator-link:hover {
+  text-decoration: underline;
+}
+
+.letter-section {
+  margin-top: 40px;
+}
+
+.glossary-item {
+  margin-bottom: 20px;
+}
+
+.glossary-term {
+  font-weight: bold;
+}
+
+.glossary-definition {
+  margin-left: 20px;
+}
