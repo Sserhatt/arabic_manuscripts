@@ -332,3 +332,61 @@ footer {
 .glossary-definition {
   margin-left: 20px;
 }
+
+.glossary-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar-container,
+.translation-search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.root-entity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.root-entity-list li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.result-entry {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.result-entry h2 {
+  margin-top: 0;
+}
+
+.result-entry p {
+  margin: 5px 0;
+}
+
