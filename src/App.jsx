@@ -11,7 +11,7 @@ import Tutorial from './components/Tutorial';
 function App() {
   const someElementRef = useRef(null);
   const progressBarRef = useRef(null);
-  const dateRef = useRef(null);
+ 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,11 +23,7 @@ function App() {
       }
     };
 
-    // Update the date on mount
-    if (dateRef.current) {
-      const d = new Date();
-      dateRef.current.innerHTML = d.toDateString();
-    }
+  
 
     window.addEventListener('scroll', handleScroll);
 
@@ -42,7 +38,6 @@ function App() {
         {/* Content that may require scrolling */}
       </div>
       <div id="progress-bar" ref={progressBarRef} style={{ height: '5px', backgroundColor: 'blue', position: 'fixed', top: 0, left: 0, width: '0%' }}></div>
-      <div id="date" ref={dateRef}></div>
       <Router>
         <Header />
         <Routes>

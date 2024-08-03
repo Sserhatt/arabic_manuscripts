@@ -390,3 +390,20 @@ button:hover {
   margin: 5px 0;
 }
 
+.masonry-item {
+  padding: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
