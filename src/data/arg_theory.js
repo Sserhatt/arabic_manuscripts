@@ -71,8 +71,8 @@ const manuscripts = [
       dateOfCreation: "Unknown",
       manuscriptType: "Original Text",
       inventoryNumber: "3251-XVI",
-      numberOfPages: "3 folios",
-      pages: 3,
+      numberOfPages: "6 folios",
+      pages: 6,
       calligraphy: "Naskhī"
     }
   ];

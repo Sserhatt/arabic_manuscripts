@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+CREATED: 2024-08-19T09:53:51.485325+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: Hâşiyetül_Kevâkibî_alâ_risâletil_bahs_Taşköprizâde.pdf_page_8.png
+IMAGE WIDTH: 14163
+IMAGE HEIGHT: 10175
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>اعم من العجزواما تقسيم امص فسالم من الاعتراض بل هالايخفی فواسل ولاباسن بالاستفسار
+          <lb/>هواستفعال من المفسدوهولغت طلب الكشف والافهما رومن التفسير وبعض
+          <lb/>المناظرين عدذلك الح الظان فراره بذلک الیعضی الامام بن الحاجب فانی عدّهذا النوع من الاعتراضت
+          <lb/>الواردة على قیاس العلت فی مختص الاصول بل یداهايه لان المتقدمة على هال اعتراض قان
+          <lb/>الا يرادالم یورف مولولل للفظاتحا لعلیم توجيها لمنه وود لکن يلون سفوالا
+          <lb/>بالمعنی البفوومی بالتالینی ونوميفايلرالمعروفی لامن الت عن الشی وفيه
+          <lb/>انی رة اللل وّدلرمن الاعت(فنات لی علم ا ینیغی بدهوطلیفت بحشا لاعترلفا
+          <lb/>(امنهاعا ن الاعترض عیارة عن خدثی کلام المتدل والاتفا رلیرهیه خدش
+          <lb/>یل توفی بالماد وتبین للمطل لیتوعع اليوال فه وهفدا مماییولر
+          <lb/>اصطلاح کان يستعمل فی القاياسات الفقصية لفظ الدوراولتسی اوالمرسيولی اوللمادة
+          <lb/>اوالمبدلاوالفاية ومااشب ذلک من اصطلاح المتكلمين هذااذالم يعلم من حال خصم
+          <lb/>معرفة ذلك واما اذاعلم فلاغداية ویلزم السائل بيان کون ذلک الفظ مجملا اوغريباحتی
+          <lb/>يحتاج المعلل الی التفسيرلان الاصل عدم الاجمال وعدم الغراية وللمعلل منع ذلك
+          <lb/>لان شرط الدلالة علی امراد عدم اجمال اوغراية وبیان شرط الدلیل علی المستدل ثم
+          <lb/>ان جواب الاستفساريکون یضدماادعي السائل یان يقول یالمستند یقول المستدل هذا ظاهر
+          <lb/>انی جواا لاستفا ربکون بیندماارعما لایلر این یقولما لمتولهذا ظاهر
+          <lb/>بی مفصردی ویبی ذلکا مابیقامن اهلراللفة اوبالنقلهن اعلرالعرفالعام
+          <lb/>شمما بالملة والدین احمدالط شی کبری رحابله وصلیالده عطی ید ناومولانا عچروالم
+          <lb/>وصج ولم ترلما کنیرالم یوم المین امییه
+          <lb/>اوالمامی انتى هداما اوردناتعليق علی شرمم دالتة مولانا القلات الحقق
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

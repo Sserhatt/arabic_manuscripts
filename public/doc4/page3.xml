@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+SOURCE: pdf//2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf
+CREATED: 2024-08-19T10:03:57.376567+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: 2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf_page_3.png
+IMAGE WIDTH: 12700
+IMAGE HEIGHT: 8975
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>من التصديقية فلا حاجة إليه والنقض الشبيهي بخصوص الفساد
+          <lb/>ومثل التداخل وعدم الحاصرية فلك في الأخيرتين النقصان
+          <lb/>التحقيقان وتحرير القسم والأقسام وتغيير التقسيم اعتبارياً
+          <lb/>ومنع الصغرى فقد ويجوز منع الكبرى أيضاً إذا كان التقسيم
+          <lb/>اعتبارياً وفي الأول إثبات الدعوى بالإقامة وبالإبطال
+          <lb/>أو بأحد التحريرين والتخييروأما الحالة الخامسة فتعلم الوظائف
+          <lb/>الموجهة من الخسم ومنكسة بالمقايسة على ما سبق آنفاً وهذا الذي
+          <lb/>بيناه إلى هنا من الوظائف هي الوظائف في الرتبة الأولى
+          <lb/>وأما التي في الرتبة الثانية فتعلمها بالمقايسة على الأولى واعلم
+          <lb/>أنه لا يخلو إما أن يعجز لمعلل عن الكلام ويسكت وذلك
+          <lb/>هو الإفحام أو العجز السائل من التعرض للمعلل بشيء من الوظائف
+          <lb/>المذكورة بأن ينتهي دليل المعلل مثلاً إلى مقدمة ضرورية القبول
+          <lb/>أو مسلمة عند السائل تفطر إلى القبول وذلك هو الإلزام فح ينتهي المناظرة
+          <lb/>فلنختم الباب في بيان أسلوب المطالعة الكتاب فاعلم أنك إذا شرعت
+          <lb/>في المطالعة فانظر في البحث من أوله إلى آخره بنظر إجمالي بحيث
+          <lb/>ينتقش في ذهنك المعنى ظاهراً ثم لاحظ الأمور التصورية والتصديقية
+          <lb/>بدقة النظر واستبصر فيها هل يرد عليها من الأمور الفادحة أم لا وهل
+          <lb/>يمكن دفعها أم لا فانظر أولاً في الألفاظ والمعاني وتدبر غاية التدبر في هذه
+          <lb/>اللفظ موضوع لذلك المعنى أم يحتمل غيره وأنه لازم أو متعد وأنه
+          <lb/>من أي باب وأنه صفة أو مضاف أو معرفة أو نكرة عام أو خاص
+          <lb/>إلى غير ذلك وتأمل ثانياً في وجه التقديم والتأخير والمناسبة
+          <lb/>وفي فائدة كل لفظ فانظرفي المتن والشرح واقصد أن الشارح من أي
+          <lb/>عبارة المتن أخذتها والمعنى الذي ذكره واجتهد أن يجد معناً أو نقضاً
+          <lb/>أو معارضة فإذا نظرت على هذا الوجه فإما أن يجد شيئاً يدع
+          <lb/>أو لا يدع أو لا تجد شيئاً أصلاً فذلك إما لكمال من جده وبينه
+          <lb/>أو لقصورك فلا تفتر جدك فانظر إلى البحث الثاني أيضاً
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

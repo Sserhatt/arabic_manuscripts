@@ -75,6 +75,7 @@ function Glossary() {
           <p>{result}</p>
         )}
       </div>
+      <p>Source: http://www.arabic-philosophy.com/dict/</p>
     </div>
   );
 }

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+SOURCE: pdf//2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf
+CREATED: 2024-08-19T10:03:56.663180+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: 2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf_page_2.png
+IMAGE WIDTH: 12700
+IMAGE HEIGHT: 8975
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>إما بإقامة الدليل على صحة جميع المقدمات وعلى كل منها
+          <lb/>أو على مقدمة معينة فإنه سكت الخصم فيها وإلا بل مقدمة أخرى
+          <lb/>فتقيم على الأخرى وهكذا إلى ينتهي المقدمات وفي السادس
+          <lb/>المنع الحقيقي وتغيير دليلك وتحريره وتحرير مدعاك
+          <lb/>وتحرير المادة والنقض والمعارضة والغصب وفي السابع
+          <lb/>المنع الحقيقي والتحريران وتغيير الدليل والنقصان التحقيقان
+          <lb/>والغصب والمنع المجاز اللغوي وأما الحالة الثالثة فاعلم أولاً أن التعريف
+          <lb/>على أربعة أقسام لفظي وتنبيهي وحقيقي واسمي والأولان
+          <lb/>من المطالب التصديقية رأي والأخيران من التصورية
+          <lb/>فالوظائف الوجهة عند الأولين المناقضة مجازاً لغوياً
+          <lb/>والمعارضة التقديرية مطلقاً والنقض الإجمالي بشهادة فساد
+          <lb/>وما شبيهياً أو تحقيقياً على اختلاف على اختلاف فلك في الكل مثل ما مر
+          <lb/>مثله وعند الأخيرتين النقض شبيهياً أو تحقيقيا
+          <lb/>فلك المنع الحقيقي والمجاز اللغوي والحذفي والنقض والمعارضة وتحرير التعريف
+          <lb/>وتغييره وتحريف العرف ومادة النقض قبل الأحسن إن يجعل
+          <lb/>هذه التحريرات الثلاثة أسانيد للمنوع وأما المنع والمعارضة
+          <lb/>فلا يتوجه إلا إذا اعتبر الدعاوى الضمنية [فح] يجوز المنع المجاز اللغوي
+          <lb/>والمعارضة التقديرية على تلك الدعاوى فلك في الأول
+          <lb/>إثبات دعواك بالدليل أو بإبطال السند المساوي والتغيير
+          <lb/>والتحريرات في الثاني المناقضة مطلقاً والنقضان التحقيقان
+          <lb/>ووجوده التحرير والتغيير وقد يفهم من كلام الشريف في شرح المواقف
+          <lb/>أنه يجوز المعارضة بلا اعتبار دعوى بأنه يقول ما ذكرته في التعريف
+          <lb/>معارضته بذلك التعريف فلك منع التعارض بالرسمية
+          <lb/>أما الحالة الرابعة فالوظائف الموجهة من الخصم المنع المجاز اللغوي
+          <lb/>مطلقاً والمعارضة التقديرية إذا اعتبرت الدعوى هذا
+          <lb/>إذا كانت التقسيم من مطالب التصورية كما قيل وأما إذا كان
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

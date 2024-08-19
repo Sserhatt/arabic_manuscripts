@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
-
-// import JSON from file
 import manuscripts from '../data/arg_theory.js';
 
 const columns = [
@@ -38,20 +36,21 @@ function Search() {
 
   const handleRowClick = (params) => {
     setClickedRow(params);
+    setClickedPage(null);  // Reset clicked page when a new row is clicked
+    setXmlContent('');     // Clear previous XML content
   };
 
   const handlePageClick = (event) => {
     const pageNumber = event.target.getAttribute('data-page');
     setClickedPage(pageNumber);
     loadXmlFile(pageNumber);
-    console.log(clickedRow.row.id, pageNumber);
   };
 
   return (
     <div className='container'>
       <div id="progress-bar" />
-      <Box sx={{ height: 400, width: '100%', paddingTop: "50px" }}>
-        <DataGrid
+      <Box sx={{ height: 400, width: '400%', paddingTop: "50px" }}>
+      <DataGrid
           rows={manuscripts}
           columns={columns}
           initialState={{
@@ -64,36 +63,48 @@ function Search() {
           pageSizeOptions={[5]}
           checkboxSelection
           disableRowSelectionOnClick
-          onRowClick={handleRowClick} // Adding the event listener here
+          onRowClick={handleRowClick}
         />
       </Box>
-      {clickedRow ? <div>
+      
+      {clickedRow && (
         <div>
-          <p>Title: {clickedRow ? clickedRow.row.bookTitle : 'N/A'}</p>
-          <p>Author: {clickedRow ? clickedRow.row.author : 'N/A'}</p>
-          <p>Calligraphy: {clickedRow ? clickedRow.row.calligraphy : 'N/A'}</p>
           <div>
-            <ul className='page-list'>
-              {clickedRow && clickedRow.row.pages ? (
-                Array.from({ length: clickedRow.row.pages }, (_, i) => i + 1).map((pageNumber) => (
-                  <li onClick={handlePageClick} key={pageNumber} data-page={pageNumber}>{pageNumber}</li>
-                ))
-              ) : (
-                <li onClick={handlePageClick} key={1} data-page={1}>{1}</li>
-              )}
-            </ul>
+            <p>Title: {clickedRow.row.bookTitle}</p>
+            <p>Author: {clickedRow.row.author}</p>
+            <p>Calligraphy: {clickedRow.row.calligraphy}</p>
+            <div>
+              <ul className='page-list'>
+                {Array.from({ length: clickedRow.row.pages || clickedRow.row.page }, (_, i) => i + 1).map((pageNumber) => (
+                  <li 
+                    onClick={handlePageClick} 
+                    key={pageNumber} 
+                    data-page={pageNumber}
+                    style={{ cursor: 'pointer', textDecoration: clickedPage === pageNumber.toString() ? 'underline' : 'none' }}
+                  >
+                    {pageNumber}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-
+          
+          <div className='synopsis horizontal'>
+            <div className='left'>
+              <img 
+                src={`/doc${clickedRow.row.id}/page${clickedPage || 1}.png`} 
+                alt="Manuscript"
+              />
+            </div>
+            <div className='right'>
+              <pre>{xmlContent}</pre>
+            </div>
+          </div>
         </div>
-        <div className='synopsis horizontal'>
-          <div className='left'><img src={`/doc1/page${clickedPage}.jpg`} alt="Manuscript" /></div>
-          <div className='right'><pre>{xmlContent}</pre></div>
-        </div>
-      </div> : null}
-
-
+      )}
     </div>
   );
 }
 
 export default Search;
+

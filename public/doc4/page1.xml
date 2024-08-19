@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+SOURCE: pdf//2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf
+CREATED: 2024-08-19T10:03:56.010723+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: 2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf_page_1.png
+IMAGE WIDTH: 12700
+IMAGE HEIGHT: 8975
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>تلخيص علم الآداب لمولانا محمد الكفوي
+          <lb/>بسم الله الرحمن الرحيم
+          <lb/>حامداً لله على نعمائه، ومصلياً على سيد أنبيائه، وعلى الآل والأصحاب
+          <lb/>وعلى الأزواج والأحباب، وبعد فيقول العبد السائل الفقير
+          <lb/>إلى الله المحب القدير السيد محمد ابن الحاج حميد الكفوي غفر الله ولوالديه
+          <lb/>بالنبي الهاشمي، هذه رسالة في الأدب لخصها من كتب هذا الباب
+          <lb/>تحفة لبعض الأحباب وتذكرة لأولي الألباب اعلم أنك إذا قلت
+          <lb/>بكلام فلك خمسة حالات حالة الدعوى بلا دليل
+          <lb/>وحالة الدعوة بالدليل وحالة التعريف وحالة التقسيم
+          <lb/>وحالة التقييد والتخصيص أما الحالة الأولى فالوظائف
+          <lb/>الوجهة من الخصم ثلاثة المناقضة مجازاً لغوياً مطلقاً، والنقض التشبيهي،
+          <lb/>والمعارضة التقديرية، فلك في الأولى إثبات مدعاك، إما بإقامة الدليل
+          <lb/>على صحته أو تحريره أو بإبطال السند لو وجد مساوياً وإبطال المنع
+          <lb/>وفي الأخيرتين منع مقدمتين والتحرير والنقصان التحقيقات
+          <lb/>وسيأتي زيادة البيان والحالة الثانية فالوظائف الوجهة من
+          <lb/>الخصم سبعة المناقضة حقيقية مطلقاً والمناقضة مجازاً
+          <lb/>عقلياً والمناقضة مجازاً حذفياً والغصب والمنع المجازي
+          <lb/>اللغوي المتعلق بنفس الدليل على رأي والنقض والمعارضة
+          <lb/>والتحقيقان فلك في الثلاثة الأول إثبات مقدمتك
+          <lb/>الممنوع إما بإقامة الدليل على صحتها أو بتحريرها أو بتحرير مدعاك
+          <lb/>أو بإبطال سند الخصم إن وجد مساوياً وتغييرها والانتقال إلى
+          <lb/>دليل آخر وإلى بحث آخر لغرض إبطال المنع إذا كان متعلقاً
+          <lb/>بالمقدمة البديهية الجلبية والاستقرائية مجرداً أو المسلمة أو مقدمة
+          <lb/>غير ملتزمة الصحة وأما منعه ومنع السند وتنويره فلا يسمع
+          <lb/>قطعاً وفي الرابع الإثبات إما بالإقامة أو بالتحرير أو التغيير
+          <lb/>والانتقال اتفاقاً ومنع مقدمته والنقض والمعارضة
+          <lb/>والغصب على من جوزه وفي الخامس إثبات دليلك
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

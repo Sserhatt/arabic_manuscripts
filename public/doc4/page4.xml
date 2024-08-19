@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+SOURCE: pdf//2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf
+CREATED: 2024-08-19T10:03:58.074791+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: 2069_Telhîsül-Hüseyniyye_filâdâb_Akkirmani.pdf_page_4.png
+IMAGE WIDTH: 13100
+IMAGE HEIGHT: 9525
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>على الوجه السابق في الثالث ثم في الرابع هكذا حتى ترتقي إلى مدارج
+          <lb/>تمييز المقبول من المردود وتكون من المقبول والمردود والحمد لله على التمام
+          <lb/>وعلى رسوله أفضل الصلاة والتحية والسلام وقد تم تلخيص
+          <lb/>الحسينية في الآداب للسيد محمد الكفوي عن يد أضعف الخليقة
+          <lb/>بل لا شيء في الحقيقة السيد محمد سعيد بن مصطفى المدعو بمدرس
+          <lb/>زادة عومل بالفلاح والسعادة في الاثنين من ربيع الأول
+          <lb/>لسنة أربعة وعشرين ومائتين وألف
+          <lb/>ببسم الله الرحمن الرحيم
+          <lb/>فال بعض ان مدرك للکلّيات والجزئيات المجرّدة خوالنفس
+          <lb/>المادّليل هوا قوي الج نیّت و صورها
+          <lb/>الناطق وصور همافيها ولالجزئیّات
+          <lb/>ِیهاو قال بعض الحققین منهاان المدرکب للکلّيت ولجزئيات مجرّدة
+          <lb/>اوماّدة هوالعقل وصورها فيها ونسبت الاوراک الي فوا همامجاز عقلیّ
+          <lb/>كسبت القطع الالسّکین وقال بعضهم ان مدرک الکل من الکلیات و الجزئيات
+          <lb/>المجردّة او الاّ دة هاوالعقل لكن صورلکلّيات والجزئيات المجردّة
+          <lb/>والّنفس وصورالجزييات يالجسما نيت فی الانها ووفع هنا ثالست هذا مسبب
+          <lb/>والختارالاخبران والاوّل من الاخيران ارجع بشهادة الوجدانا علح
+          <lb/>انّاه مر في المحّل الّذی الکلّيات ولا کان ذكرالمحلّ هوالنّفس
+          <lb/>وفاقا ثبت ان محّل الکلّ هوانَّفس طال الحقّا هوالمذهب الاوّل
+          <lb/>بشهادة ان الحيوانات مع کونها فا قرة للنفس المجرّدة مدرکت الجزئيّات
+          <lb/>الحوست والعانى المنزعت منها قلات انهاحاسات الادرکات
+          <lb/>ثمان من ادلت الذهب الاول ان الادراک نقیض ارتسام الدرک في الدرک
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

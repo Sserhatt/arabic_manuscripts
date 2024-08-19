@@ -1,378 +1,377 @@
 {
-  "entries": [
+    "entries": [
       {
-          "root": "ʾ-b-d",
-          "entries": [
-              {
-                  "word": "min al-azal ilā al-abdadm-n",
-                  "part_of_speech": "preposition + noun + preposition + noun",
-                  "meaning": "from eternity to everlastingness",
-                  "source": "Heer (1979)"
-              },
-              {
-                  "word": "ʾazalan wa-abadan",
-                  "part_of_speech": "adverb + conjunction + adverb",
-                  "meaning": "eternally and everlastingly",
-                  "source": "Heer (1979)"
-              },
-              {
-                  "word": "أبد",
-                  "transliteration": "ʾabad",
-                  "part_of_speech": "noun",
-                  "meaning": "eternity, eternal duration, endlessness",
-                  "source": "PhD"
-              },
-              {
-                  "word": "أبداً",
-                  "transliteration": "ʾabadan",
-                  "part_of_speech": "adverb",
-                  "meaning": "eternally, always, perpetually",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "Rashed (2015)"
-                  ]
-              },
-              {
-                  "word": "أبدى",
-                  "transliteration": "ʾabadī",
-                  "part_of_speech": "adjective",
-                  "meaning": "eternal, everlasting",
-                  "sources": [
-                      "Martin (1984)",
-                      "McGinnis/Reisman (2007)",
-                      "Heer (1979)"
-                  ]
-              },
-              {
-                  "word": "مؤبّد",
-                  "transliteration": "muʾabbad",
-                  "part_of_speech": "II, partpass",
-                  "meaning": "eternal",
-                  "source": "Martin (1984)"
-              }
-          ]
+        "root": "ʾ-b-d",
+        "entries": [
+          {
+            "word": "من الأزل إلى الأبد",
+            "transliteration": "min al-azal ilā al-abadi",
+            "part_of_speech": "preposition + noun + preposition + noun",
+            "meaning": "from eternity to everlastingness",
+            "source": "Heer (1979)"
+          },
+          {
+            "word": "أزلاً وأبداً",
+            "transliteration": "ʾazalan wa-abadan",
+            "part_of_speech": "adverb + conjunction + adverb",
+            "meaning": "eternally and everlastingly",
+            "source": "Heer (1979)"
+          },
+          {
+            "word": "أبد",
+            "transliteration": "ʾabad",
+            "part_of_speech": "noun",
+            "meaning": "eternity, eternal duration, endlessness",
+            "source": "PhD"
+          },
+          {
+            "word": "أبداً",
+            "transliteration": "ʾabadan",
+            "part_of_speech": "adverb",
+            "meaning": "eternally, always, perpetually",
+            "sources": [
+              "McGinnis (2009)",
+              "Rashed (2015)"
+            ]
+          },
+          {
+            "word": "أبدى",
+            "transliteration": "ʾabadī",
+            "part_of_speech": "adjective",
+            "meaning": "eternal, everlasting",
+            "sources": [
+              "Martin (1984)",
+              "McGinnis/Reisman (2007)",
+              "Heer (1979)"
+            ]
+          },
+          {
+            "word": "مؤبّد",
+            "transliteration": "muʾabbad",
+            "part_of_speech": "II, partpass",
+            "meaning": "eternal",
+            "source": "Martin (1984)"
+          }
+        ]
       },
       {
-          "root": "ʾ-b-y",
-          "entries": [
-              {
-                  "word": "شئنّا أم أبينا",
-                  "transliteration": "šiʾnā ʾam ʾabīna",
-                  "part_of_speech": "I, verb + conjunction + I, verb",
-                  "meaning": "whether we like it or not",
-                  "source": "PhD"
-              }
-          ]
+        "root": "ʾ-b-y",
+        "entries": [
+          {
+            "word": "شئنّا أم أبينا",
+            "transliteration": "šinā ʾam ʾabīnā",
+            "part_of_speech": "I, verb + conjunction + I, verb",
+            "meaning": "whether we like it or not",
+            "source": "PhD"
+          }
+        ]
       },
       {
-          "root": "ʾ-t-r",
-          "entries": [
-              {
-                  "word": "āṯār al-ǧaww",
-                  "part_of_speech": "noun + noun",
-                  "meaning": "the impressions in the atmosphere",
-                  "source": "Rashed (2015)"
-              },
-              {
-                  "word": "taʾṯīrāt samāwiyya",
-                  "part_of_speech": "noun + adjective",
-                  "meaning": "celestial influences",
-                  "source": "Rashed (2015)"
-              }
-          ]
+        "root": "ʾ-t-r",
+        "entries": [
+          {
+            "word": "آثار الجو",
+            "transliteration": "āṯār al-ǧaww",
+            "part_of_speech": "noun + noun",
+            "meaning": "the impressions in the atmosphere",
+            "source": "Rashed (2015)"
+          },
+          {
+            "word": "تأثيرات سماوية",
+            "transliteration": "taʾṯīrāt samāwiyya",
+            "part_of_speech": "noun + adjective",
+            "meaning": "celestial influences",
+            "source": "Rashed (2015)"
+          }
+        ]
       },
       {
-          "root": "ʾ-t-y",
-          "entries": [
-              {
-                  "word": "آت",
-                  "transliteration": "ʾātin",
-                  "part_of_speech": "I, partact",
-                  "meaning": "future",
-                  "source": "McGinnis/Reisman (2007)"
-              },
-              {
-                  "word": "أتى",
-                  "transliteration": "ʾatā - yaʾtī",
-                  "part_of_speech": "I, verb",
-                  "meaning": "to come to, to get to, to arrive at; to bring, to offer, to produce; to present exhaustively and in great detail; to finish; to destroy",
-                  "source": "PhD"
-              },
-              {
-                  "word": "تأتّ",
-                  "transliteration": "taʾattin",
-                  "part_of_speech": "V, inf",
-                  "meaning": "being disposed",
-                  "source": "McGinnis/Reisman (2007)"
-              },
-              {
-                  "word": "تأتّى",
-                  "transliteration": "taʾattā - yataʾattā",
-                  "part_of_speech": "V, verb",
-                  "meaning": "to originate, to arise; to end with; to be disposed or prepared; to be possible or feasible",
-                  "source": "PhD"
-              }
-          ]
+        "root": "ʾ-t-y",
+        "entries": [
+          {
+            "word": "آتٍ",
+            "transliteration": "ʾātin",
+            "part_of_speech": "I, partact",
+            "meaning": "future",
+            "source": "McGinnis/Reisman (2007)"
+          },
+          {
+            "word": "أتى",
+            "transliteration": "ʾatā - yaʾtī",
+            "part_of_speech": "I, verb",
+            "meaning": "to come to, to get to, to arrive at; to bring, to offer, to produce; to present exhaustively and in great detail; to finish; to destroy",
+            "source": "PhD"
+          },
+          {
+            "word": "تأتّ",
+            "transliteration": "taʾattin",
+            "part_of_speech": "V, inf",
+            "meaning": "being disposed",
+            "source": "McGinnis/Reisman (2007)"
+          },
+          {
+            "word": "تأتّى",
+            "transliteration": "taʾattā - yataʾattā",
+            "part_of_speech": "V, verb",
+            "meaning": "to originate, to arise; to end with; to be disposed or prepared; to be possible or feasible",
+            "source": "PhD"
+          }
+        ]
       },
       {
-          "root": "ʾ-ṯ-r",
-          "entries": [
-              {
-                  "word": "aṯar qadīm",
-                  "part_of_speech": "noun + adjective",
-                  "meaning": "eternal effect",
-                  "source": "Heer (1979)"
-              },
-              {
-                  "word": "al-ṣifāt al-muʾaṯṯira",
-                  "part_of_speech": "noun + adjective",
-                  "meaning": "effective attributes",
-                  "source": "Heer (1979)"
-              },
-              {
-                  "word": "tasalsul al-āṯār",
-                  "transliteration": "ʾaṯars-l-s-l",
-                  "part_of_speech": "II, inf + noun",
-                  "meaning": "infinite regress of effects",
-                  "source": "El-Tobgui (2020)"
-              },
-              {
-                  "word": "آثر",
-                  "transliteration": "ʾāṯara - yuʾṯiru",
-                  "part_of_speech": "IV, verb",
-                  "meaning": "to prefer, to like more, to choose",
-                  "source": "PhD"
-              },
-              {
-                  "word": "أثر",
-                  "transliteration": "ʾaṯar",
-                  "part_of_speech": "noun",
-                  "meaning": "trace, sign, impression; effect; tradition; character; vestige",
-                  "sources": [
-                      "Martin (1984)",
-                      "McGinnis (2009)",
-                      "PhD",
-                      "Heer (1979)",
-                      "Rashed (2015)",
-                      "El-Tobgui (2020)"
-                  ]
-              },
-              {
-                  "word": "أثّر",
-                  "transliteration": "ʾaṯṯara - yuʾaṯṯiru",
-                  "part_of_speech": "II, verb",
-                  "meaning": "to cause an effect, to influence",
-                  "sources": [
-                      "McGinnis/Reisman (2007)",
-                      "McGinnis (2009)",
-                      "Heer (1979)",
-                      "Rashed (2015)"
-                  ]
-              },
-              {
-                  "word": "تأثير",
-                  "transliteration": "taʾṯīr",
-                  "part_of_speech": "II, inf",
-                  "meaning": "affection, effect, impression; cause, influence; efficacy",
-                  "sources": [
-                      "Martin (1984)",
-                      "McGinnis/Reisman (2007)",
-                      "Schupp (2009)",
-                      "Heer (1979)",
-                      "Rashed (2015)"
-                  ]
-              },
-              {
-                  "word": "تأثّر",
-                  "transliteration": "taʾaṯṯara - yataʾaṯṯaru",
-                  "part_of_speech": "V, verb",
-                  "meaning": "to be influenced, to effect",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "Heer (1979)"
-                  ]
-              },
-              {
-                  "word": "مؤثّر",
-                  "transliteration": "muʾaṯṯir",
-                  "part_of_speech": "II, partact",
-                  "meaning": "influencing, having influence on, affecting; effective; cause",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "PhD",
-                      "Heer (1979)",
-                      "Rashed (2015)"
-                  ]
-              },
-              {
-                  "word": "متأثّر",
-                  "transliteration": "mutaʾaṯṯir",
-                  "part_of_speech": "V, partact",
-                  "meaning": "effect, influenced, effective",
-                  "sources": [
-                      "McGinnis/Reisman (2007)",
-                      "McGinnis (2009)",
-                      "Heer (1979)"
-                  ]
-              }
-          ]
+        "root": "ʾ-ṯ-r",
+        "entries": [
+          {
+            "word": "أثر قديم",
+            "transliteration": "ʾaṯar qadīm",
+            "part_of_speech": "noun + adjective",
+            "meaning": "eternal effect",
+            "source": "Heer (1979)"
+          },
+          {
+            "word": "الصفات المؤثرة",
+            "transliteration": "al-ṣifāt al-muʾaṯṯira",
+            "part_of_speech": "noun + adjective",
+            "meaning": "effective attributes",
+            "source": "Heer (1979)"
+          },
+          {
+            "word": "تسلسل الآثار",
+            "transliteration": "tasalsul al-āṯār",
+            "part_of_speech": "II, inf + noun",
+            "meaning": "infinite regress of effects",
+            "source": "El-Tobgui (2020)"
+          },
+          {
+            "word": "آثر",
+            "transliteration": "ʾāṯara - yuʾṯiru",
+            "part_of_speech": "IV, verb",
+            "meaning": "to prefer, to like more, to choose",
+            "source": "PhD"
+          },
+          {
+            "word": "أثر",
+            "transliteration": "ʾaṯar",
+            "part_of_speech": "noun",
+            "meaning": "trace, sign, impression; effect; tradition; character; vestige",
+            "sources": [
+              "Martin (1984)",
+              "McGinnis (2009)",
+              "PhD",
+              "Heer (1979)",
+              "Rashed (2015)",
+              "El-Tobgui (2020)"
+            ]
+          },
+          {
+            "word": "أثّر",
+            "transliteration": "ʾaṯṯara - yuʾaṯṯiru",
+            "part_of_speech": "II, verb",
+            "meaning": "to cause an effect, to influence",
+            "sources": [
+              "McGinnis/Reisman (2007)",
+              "McGinnis (2009)",
+              "Heer (1979)",
+              "Rashed (2015)"
+            ]
+          },
+          {
+            "word": "تأثير",
+            "transliteration": "taʾṯīr",
+            "part_of_speech": "II, inf",
+            "meaning": "affection, effect, impression; cause, influence; efficacy",
+            "sources": [
+              "Martin (1984)",
+              "McGinnis/Reisman (2007)",
+              "Schupp (2009)",
+              "Heer (1979)",
+              "Rashed (2015)"
+            ]
+          },
+          {
+            "word": "تأثّر",
+            "transliteration": "taʾaṯṯara - yataʾaṯṯaru",
+            "part_of_speech": "V, verb",
+            "meaning": "to be influenced, to effect",
+            "sources": [
+              "McGinnis (2009)",
+              "Heer (1979)"
+            ]
+          },
+          {
+            "word": "مؤثّر",
+            "transliteration": "muʾaṯṯir",
+            "part_of_speech": "II, partact",
+            "meaning": "influencing, having influence on, affecting; effective; cause",
+            "sources": [
+              "McGinnis (2009)",
+              "PhD",
+              "Heer (1979)",
+              "Rashed (2015)"
+            ]
+          },
+          {
+            "word": "متأثّر",
+            "transliteration": "mutaʾaṯṯir",
+            "part_of_speech": "V, partact",
+            "meaning": "effect, influenced, effective",
+            "sources": [
+              "McGinnis/Reisman (2007)",
+              "McGinnis (2009)",
+              "Heer (1979)"
+            ]
+          }
+        ]
       },
       {
-          "root": "ʾ-ṯ-m",
-          "entries": [
-              {
-                  "word": "ʾiṯm",
-                  "part_of_speech": "noun",
-                  "meaning": "Sünde",
-                  "source": "Schupp (2009)"
-              },
-              {
-                  "word": "آثم",
-                  "transliteration": "ʾāṯim",
-                  "part_of_speech": "noun",
-                  "meaning": "Sünder",
-                  "source": "Schupp (2009)"
-              }
-          ]
+        "root": "ʾ-ṯ-m",
+        "entries": [
+          {
+            "word": "إثم",
+            "transliteration": "ʾiṯm",
+            "part_of_speech": "noun",
+            "meaning": "sin",
+            "source": "Schupp (2009)"
+          },
+          {
+            "word": "آثم",
+            "transliteration": "ʾāṯim",
+            "part_of_speech": "noun",
+            "meaning": "sinner",
+            "source": "Schupp (2009)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ǧ-r",
-          "entries": [
-              {
-                  "word": "maʾǧūr",
-                  "part_of_speech": "I, partpass",
-                  "meaning": "hired, employed; reward, compensation",
-                  "source": "Heer (1979)"
-              }
-          ]
+        "root": "ʾ-ǧ-r",
+        "entries": [
+          {
+            "word": "مجور",
+            "transliteration": "maʾǧūr",
+            "part_of_speech": "I, partpass",
+            "meaning": "hired, employed; reward, compensation",
+            "source": "Heer (1979)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ṭ-ʾ",
-          "entries": [
-              {
-                  "word": "ṭ-ṭay",
-                  "transliteration": "ṭāʾiyy",
-                  "part_of_speech": "noun",
-                  "meaning": "a kind of heaven",
-                  "source": "Heer (1979)"
-              }
-          ]
+        "root": "ʾ-ṭ-ʾ",
+        "entries": [
+          {
+            "word": "طائى",
+            "transliteration": "ṭāʾiyy",
+            "part_of_speech": "noun",
+            "meaning": "a kind of heaven",
+            "source": "Heer (1979)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ḥ-b",
-          "entries": [
-              {
-                  "word": "ʾaḥabb",
-                  "transliteration": "ʾaḥabba - yuḥibbu",
-                  "part_of_speech": "I, verb",
-                  "meaning": "to love, to like, to favor",
-                  "sources": [
-                      "PhD",
-                      "McGinnis (2009)",
-                      "Rashed (2015)"
-                  ]
-              },
-              {
-                  "word": "ḥubb",
-                  "transliteration": "ḥubb",
-                  "part_of_speech": "noun",
-                  "meaning": "love",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "PhD",
-                      "Heer (1979)"
-                  ]
-              },
-              {
-                  "word": "حبيب",
-                  "transliteration": "ḥabīb",
-                  "part_of_speech": "noun",
-                  "meaning": "beloved, dear",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "Heer (1979)",
-                      "PhD"
-                  ]
-              },
-              {
-                  "word": "محبوب",
-                  "transliteration": "maḥbūb",
-                  "part_of_speech": "noun",
-                  "meaning": "loved, adored, favorite",
-                  "sources": [
-                      "McGinnis (2009)",
-                      "Heer (1979)",
-                      "PhD"
-                  ]
-              }
-          ]
+        "root": "ʾ-ḥ-b",
+        "entries": [
+          {
+            "word": "أحبّ",
+            "transliteration": "ʾaḥabba - yuḥibbu",
+            "part_of_speech": "I, verb",
+            "meaning": "to love, to like, to favor",
+            "sources": [
+              "PhD",
+              "McGinnis (2009)",
+              "Rashed (2015)"
+            ]
+          },
+          {
+            "word": "حب",
+            "transliteration": "ḥubb",
+            "part_of_speech": "noun",
+            "meaning": "love",
+            "sources": [
+              "McGinnis (2009)",
+              "PhD",
+              "Heer (1979)"
+            ]
+          },
+          {
+            "word": "حبيب",
+            "transliteration": "ḥabīb",
+            "part_of_speech": "noun",
+            "meaning": "beloved, dear",
+            "sources": [
+              "McGinnis (2009)",
+              "Heer (1979)",
+              "PhD"
+            ]
+          },
+          {
+            "word": "محبوب",
+            "transliteration": "maḥbūb",
+            "part_of_speech": "noun",
+            "meaning": "loved, adored, favorite",
+            "sources": [
+              "McGinnis (2009)",
+              "Heer (1979)",
+              "PhD"
+            ]
+          }
+        ]
       },
       {
-          "root": "ʾ-ʿ-ʾ",
-          "entries": [
-              {
-                  "word": "ʾam",
-                  "transliteration": "ʾam",
-                  "part_of_speech": "conjunction",
-                  "meaning": "or (in an alternative question)",
-                  "source": "Heer (1979)"
-              }
-          ]
+        "root": "ʾ-ʿ-ʾ",
+        "entries": [
+          {
+            "word": "أم",
+            "transliteration": "ʾam",
+            "part_of_speech": "conjunction",
+            "meaning": "or (in an alternative question)",
+            "source": "Heer (1979)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ʿ-r",
-          "entries": [
-              {
-                  "word": "ʾurūn",
-                  "transliteration": "ʾurūn",
-                  "part_of_speech": "noun",
-                  "meaning": "innate quality, natural disposition",
-                  "source": "PhD"
-              }
-          ]
+        "root": "ʾ-ʿ-r",
+        "entries": [
+          {
+            "word": "عَرَض",
+            "transliteration": "ʾaʿraḍ",
+            "part_of_speech": "noun",
+            "meaning": "accident (in philosophy), quality, property",
+            "source": "Heer (1979)"
+          },
+          {
+            "word": "عَرَض",
+            "transliteration": "ʾaʿraḍ",
+            "part_of_speech": "noun",
+            "meaning": "accident (in philosophy)",
+            "source": "McGinnis (2009)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ʿ-r",
-          "entries": [
-              {
-                  "word": "ʾaʿraḍ",
-                  "transliteration": "ʾaʿraḍ",
-                  "part_of_speech": "noun",
-                  "meaning": "accident (in philosophy), quality, property",
-                  "source": "Heer (1979)"
-              },
-              {
-                  "word": "ʾaʿraḍ",
-                  "transliteration": "ʾaʿraḍ",
-                  "part_of_speech": "noun",
-                  "meaning": "accident (in philosophy)",
-                  "source": "McGinnis (2009)"
-              }
-          ]
+        "root": "ʾ-ʿ-m",
+        "entries": [
+          {
+            "word": "عماد",
+            "transliteration": "ʿimād",
+            "part_of_speech": "noun",
+            "meaning": "pillar, support",
+            "source": "Heer (1979)"
+          }
+        ]
       },
       {
-          "root": "ʾ-ʿ-m",
-          "entries": [
-              {
-                  "word": "ʿimād",
-                  "transliteration": "ʿimād",
-                  "part_of_speech": "noun",
-                  "meaning": "pillar, support",
-                  "source": "Heer (1979)"
-              }
-          ]
-      },
-      {
-          "root": "ʾ-ʿ-n",
-          "entries": [
-              {
-                  "word": "ʿināyah",
-                  "transliteration": "ʿināyah",
-                  "part_of_speech": "noun",
-                  "meaning": "care, attention, protection",
-                  "source": "Heer (1979)"
-              }
-          ]
+        "root": "ʾ-ʿ-n",
+        "entries": [
+          {
+            "word": "عناية",
+            "transliteration": "ʿināyah",
+            "part_of_speech": "noun",
+            "meaning": "care, attention, protection",
+            "source": "Heer (1979)"
+          }
+        ]
       }
-  ]
-}
+    ]
+  }
+
+
+  

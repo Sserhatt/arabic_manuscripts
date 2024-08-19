@@ -13,8 +13,6 @@ function Footer() {
     <footer>
       <div className="topnav">
         <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/about">About</Link>
       </div>
       <p>Date: {currentDate}</p>
       <p className="note">&copy; 2024 Serhat Acar RBDH</p>

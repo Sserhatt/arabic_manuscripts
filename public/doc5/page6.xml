@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/OpenITI/tei_openiti/master/tei_openiti.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <calendarDesc>
+        <calendar xml:id="ah">
+          <p>Anno Hegirae</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    <xenoData xml:space="preserve">
+SOURCE: pdf//Risâle_fî_âdâbil-bahs_li_semerkandi.pdf
+CREATED: 2024-08-19T13:05:13.351538+00:00
+CREATED BY: eScriptorium vv0.13.8
+IMAGE FILENAME: Risâle_fî_âdâbil-bahs_li_semerkandi.pdf_page_6.png
+IMAGE WIDTH: 11525
+IMAGE HEIGHT: 8000
+</xenoData>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>المعارضة في المعقولات كالنقض للدليل المسألة الثالثة من علم الخلاف
+          <lb/>قال الشارح الأب يملك إجبار البكر البالغة على المنكوح خلافاً لأبي حنيفة
+          <lb/>رحمه الله لنا فيه أن إحدى الأوليتين ثابتة وهي إما قبل الإجبار أو عند الإجبار
+          <lb/>وأياً ما كان يلزم المطلوب وإما قلنا إن أحد الولايتين ثابتة لأنه لا يخلو من
+          <lb/>من أن يكون شمول الولاية للوقتين علة لأحد الشمولين مطلقاً أي شمول
+          <lb/>الولاية وشمول عدمها أو لم يكن وأياً ما كانا يلزم إحدى الولايتين إما إذا
+          <lb/>كان علة فظاهر لأن شمول الولاية سواء مان محققاً أو لم يكن يلزم أحد الولايتين
+          <lb/>وإن لم يكن علة فكذا لأن عليته مدار النقيض شمول العدم وجوداً وعدماً
+          <lb/>في الأنفس لأنه لو ثبت شمول الولاية أو الافتراق بين الولايتين ثبت
+          <lb/>نقيض شمول العدم يلزم نقيض العدم لأن العلية إذا كانت ثابتة كان
+          <lb/>نقيض شمول العدم ثابتاً فعند عدمها يجب أن يكون ثابتاً في الجملة وإلا كانت
+          <lb/>العلية مداراً له وجوداً وعدماً هف وإذا ثبت نقيض شمول العدم
+          <lb/>فإما أن يصدق شمول الولاية وأياً كان يلزم إحدى الولايتين وهو
+          <lb/>المطلوب فإن قيل مسلمنا أن العلية ليست مدار في نفس الأمر لكن
+          <lb/>لد لم قلتم إنها كذلك على تقدير عدم علية شمول الولاية لا يجوز أن يكون
+          <lb/>ذلك التقدير محالاً في المحال جاز أن يستلزم المحال فنقول هذا المنع لا
+          <lb/>يضرنا لأنه لو كان كذلك التقدير ثابتاً في نفس الأمر فيتم ما ذكرنا وإن لم
+          <lb/>يكن يلزم العلية ومجا بها يحصل المقصود كما مرتمت الكتاب بعون الله
+          <lb/>الملك الوهاب في يد عبد الضعيف محمود بن رسول غفر الله له ولأستاذه
+          <lb/>ولوالديه وللمؤمنين والمؤمنات والمسلمين
+          <lb/>والمسلمات الأحياء منهم
+          <lb/>والأموات
+          <lb/>سنة
+          <lb/>1118
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
