@@ -242,7 +242,7 @@ const Tutorial = () => {
   return (
     <div>
       <SearchBar onSearch={(query) => setSearchQuery(query)} />
-      <h1>Tutorial (From Hypotheses Documentation)</h1>
+      <h1>Tutorial</h1>
       {MasonryContainer()}
       <div>
         <h3>Search Results: {searchQuery}</h3>
@@ -254,6 +254,7 @@ const Tutorial = () => {
           ))}
         </ul> 
       </div>  
+      <div> <p> Source: https://lectaurep.hypotheses.org/documentation/escriptorium-tutorial-en</p> </div>
     </div>
   );
 };
