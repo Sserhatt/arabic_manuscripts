@@ -45,7 +45,7 @@ const tutorialSteps = [
           <h4>Import images from PDF files</h4>
           <p>Click on the Import button, then Images (PDF) option to load a PDF file and automatically extract the images. Please note, only the images are imported. If the PDF contains a text layer corresponding to the transcription, it is not imported.</p>
           <h4>Use an IIIF manifesto</h4>
-          <p>Click on the “Manifesto” button to go to the IIIF Manifesto. This page allows you to load manifests and display them in a web browser. Example: https://gallica.bnf.fr/iiif/ark:/12148/btv1b53026595r/manifest.json</p>
+          <p>Click on the “Manifesto” button to go to the IIIF Manifesto</p>
         </>
       ),
     },
@@ -235,11 +235,10 @@ const Tutorial = () => {
 
 function processJSX(element, query) {
   if (typeof element === 'string') {
-    return highlightJSX(element, query); // Highlight text nodes
+    return highlightJSX(element, query); 
   }
 
   if (React.isValidElement(element)) {
-    // If it's a valid React element, clone it and process its children
     return React.cloneElement(element, {
       children: React.Children.map(element.props.children, (child) =>
         processJSX(child, query)
@@ -260,7 +259,9 @@ function processJSX(element, query) {
         <ul>
           {results.map((result, index) => (
             <li key={index}>
-              {highlightJSX(result.title, searchQuery)}
+              {highlightJSX(result.title, searchQuery)} - {highlightJSX(result.content.text, searchQuery)} - {result.content.split.map((part, index) => (
+                <span key={index}>{highlightJSX(part, searchQuery)}</span>
+              ))}
             </li>
           ))}
         </ul> 
