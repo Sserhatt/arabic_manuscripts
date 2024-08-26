@@ -203,22 +203,9 @@ const Tutorial = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                   <div>
-                    <Typography variant="body1">
-                      {highlightText(step.content.text.props.children.map(child => child.props.children).join(' '), searchQuery)}
-                    </Typography>
-                    {step.content.image && (
-                      <img
-                        src={step.content.image}
-                        alt={`Step ${index}`}
-                        style={{ width: '100%', height: 'auto', marginBottom: '10px' }}
-                      />
-                    )}
-                    {step.content.video && (
-                      <video controls style={{ width: '100%', height: 'auto' }}>
-                        <source src={step.content.video} type="video/mp4" />
-                        Your browser does not support the video tag.
-                      </video>
-                    )}
+                  <Typography variant="body1" component="div">
+                  {processJSX(step.content.text, searchQuery)}
+                  </Typography>
                   </div>
                 </AccordionDetails>
               </StyledAccordion>
@@ -229,15 +216,39 @@ const Tutorial = () => {
     );
   };
 
-  function highlightText(text, query) {
-    if (!query) return text;
-    const parts = text.split(new RegExp(`(${query})`, 'gi'));
-    return parts.map((part, index) => part.toLowerCase() === query.toLowerCase() ? (
+  function highlightJSX(element, query) {
+    if (!query || typeof element !== 'string') {
+      return element;
+    }
+
+     // Split the text and apply highlights
+  const parts = element.split(new RegExp(`(${query})`, 'gi'));
+
+  return parts.map((part, index) =>
+    part.toLowerCase() === query.toLowerCase() ? (
       <span key={index} style={{ backgroundColor: '#ddd' }}>{part}</span>
     ) : (
       part
-    ));
+    )
+  );
+}
+
+function processJSX(element, query) {
+  if (typeof element === 'string') {
+    return highlightJSX(element, query); // Highlight text nodes
   }
+
+  if (React.isValidElement(element)) {
+    // If it's a valid React element, clone it and process its children
+    return React.cloneElement(element, {
+      children: React.Children.map(element.props.children, (child) =>
+        processJSX(child, query)
+      ),
+    });
+  }
+
+  return element;
+}
 
   return (
     <div>
@@ -249,7 +260,7 @@ const Tutorial = () => {
         <ul>
           {results.map((result, index) => (
             <li key={index}>
-              {highlightText(result.title, searchQuery)} - {highlightText(result.content.text.props.children.map(child => child.props.children).join(' '), searchQuery)}
+              {highlightJSX(result.title, searchQuery)}
             </li>
           ))}
         </ul> 
