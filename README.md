@@ -39,7 +39,7 @@ The project is completed by using React components and is structured into four m
 
 To explore the website locally, please follow these steps:
 
-    Clone the Repository: Bash git clone [link]
+    Clone the Repository: Bash git clone
 
 Install Dependencies: Make sure you have npm installed. Navigate to the project directory and install the necessary React packages:
 Bash
@@ -55,12 +55,9 @@ Bash
 
 
 
-
 2. Citing this GitHub Repository
 
   If you are citing codes or digital resources from this repository, please cite the project as follows:
-  
-- GitHub Citation:
 
     Acar, Serhat. (2024). eScriptorium HTR Processing and Performance Analysis on Arabic Argumentation Manuscripts. GitHub repository. Available at: https://github.com/Sserhatt/arabic_manuscripts
 
