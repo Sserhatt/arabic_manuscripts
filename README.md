@@ -47,7 +47,6 @@ Bash
     npm install
 
     Start the Local Server: Run the application on your local machine:
-    Bash
 
     npm start
 
