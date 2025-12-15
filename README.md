@@ -39,8 +39,7 @@ The project is completed by using React components and is structured into four m
 
 To explore the website locally, please follow these steps:
 
-    Clone the Repository:
-    Bash git clone [link]
+    Clone the Repository: Bash git clone [link]
 
 Install Dependencies: Make sure you have npm installed. Navigate to the project directory and install the necessary React packages:
 Bash
@@ -69,4 +68,4 @@ Bash
 
 All rights are preserved.
 
-    @2025 Serhat Acar
+@2025 Serhat Acar
