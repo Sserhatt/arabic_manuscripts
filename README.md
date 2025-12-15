@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+1. Project Overview
+     
+- Title : eScriptorium HTR Processing and Performance Analysis on Arabic Argumentation Manuscripts (Munāẓara)
+- University: Université de Franché Comte
+- Year: 2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is supporting open-access digital project for my master's degree thesis in Digital Humanities. The master thesis is devoted to exploring and preserving intellectual culture of the early modern Ottoman Empire through the lens of HTR engines (eScriptorium). 
 
-## Available Scripts
+The purpose of this project is a collection of previously unpublished Arabic debate manuscripts (munāẓara) that reflect the philosophical and logical knowledge of the early modern Ottoman and Islamic world in general.
 
-In the project directory, you can run:
+- Project Goals 
 
-### `npm start`
+My mission is to make this forgotten intellectual tradition discoverable and accessible by:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Collecting and centralizing debate manuscripts in a dedicated, open-access database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Making these valuable historical sources Available, Re-usable, and Re-discoverable according to FAIR Principles.
 
-### `npm test`
+    Advancing application of Digital Humanities methodologies within the field of historical and intellectual studies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Website Features
 
-### `npm run build`
+The project is completed by using React components and is structured into four major parts:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Database page: A centralized metadata sources for the munāẓara manuscripts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Open-Access TEI-XML: Direct access to the HTR-processed manuscript transcriptions in a standardized TEI-XML format for reusability, which is built eScriptorium's interfaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Philosophical Lexicon: A specialized Arabic-English lexicon covering key philosophical and logical terms found in the debates. (Reference source is mentioned)
 
-### `npm run eject`
+    eScriptorium HTR Tutorial: A dedicated page providing practical methods, training model structures, and performance analysis insights for utilizing the eScriptorium HTR engine on complex Arabic scripts. ( Reference source is mentioned)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Abstract of the Master's Thesis
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    This thesis explores the intellectual culture of the early modern Ottoman Empire through Handwritten Text Recognition (HTR) technology, focusing on Arabic argumentation manuscripts (munāẓara). Utilizing the eScriptorium platform, the study interrogates HTR performance and offers practical methods and training model structures to enhance transcription outcomes for complex Arabic texts. By addressing challenges like ligatures and diacritics, this research contributes to the preservation and accessibility of Ottoman intellectual history, helping to uncover more about early modern intellectual culture. The work also advances the application of digital humanities in historical manuscript studies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Getting Started
 
-## Learn More
+To explore the website locally, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Clone the Repository:
+    Bash git clone [link]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install Dependencies: Make sure you have npm installed. Navigate to the project directory and install the necessary React packages:
+Bash
 
-### Code Splitting
+    npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Start the Local Server: Run the application on your local machine:
+    Bash
 
-### Analyzing the Bundle Size
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    The website should open in your browser, usually at http://localhost:3000
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Citing this GitHub Repository
 
-### Deployment
+  If you are citing codes or digital resources from this repository, please cite the project as follows:
+  
+- GitHub Citation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Acar, Serhat. (2024). eScriptorium HTR Processing and Performance Analysis on Arabic Argumentation Manuscripts. GitHub repository. Available at: https://github.com/Sserhatt/arabic_manuscripts
 
-### `npm run build` fails to minify
+© Copyright and License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All rights are preserved.
+
+    @2025 Serhat Acar
