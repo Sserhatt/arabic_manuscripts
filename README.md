@@ -39,7 +39,7 @@ The project is completed by using React components and is structured into four m
 
 To explore the website locally, please follow these steps:
 
-    Bash git clone
+    git clone
 
 Install Dependencies: Make sure you have npm installed. Navigate to the project directory and install the necessary React packages:
 Bash
